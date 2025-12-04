@@ -1,0 +1,22 @@
+{
+	"enabled": true,
+	"stocks": [
+		{"companyname": "Example Company", "name": "EMPL", "maxremove": 1, "maxadd": 2, "startprice": 45, "updateinterval": 3}
+	],
+	"difficulties": [
+		{"name": "example difficulty", "startingcash": 100, "volatility": 2, "allow_pause": false, "sharelimits": {
+			"Hobo": 5,
+			"Trader": 10,
+			"Broker": 20,
+			"Investor": 30,
+			"Stonker": 40,
+			"Millionare": 60,
+			"Tycoon": 100,
+			"Rich Guy": 150,
+			"Industrialist": 220,
+			"Magnate": 290,
+			"Capitalist": 360,
+			"Billionare": 440}
+		}
+	]
+}
